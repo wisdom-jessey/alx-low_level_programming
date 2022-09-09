@@ -2,13 +2,13 @@
 
 /**
  *
- * * main - Printing in C
+ * main - Printing in C
  *
- * *
+ * description: using the main fuction
  *
- * * Return: Always 0 (Successful)
+ * Return: Always 0 (Successful)
  *
- * */
+ */
 
 int main(void)
 
