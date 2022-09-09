@@ -1,7 +1,4 @@
 #include <stdio.h>
-
-
-
 /**
  *
  * * main - Printing in C
@@ -23,3 +20,4 @@ int main(void)
 	return (0);
 
 }
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89
