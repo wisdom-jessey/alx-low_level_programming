@@ -22,7 +22,6 @@ int main(void)
 	if (n > 0)
 
 	{
-
 			printf("%i is positive\n", n);
 
 	}
@@ -30,7 +29,6 @@ int main(void)
 	else if (n == 0)
 
 	{
-
 			printf("%i is zero\n", n);
 
 	}
@@ -38,11 +36,9 @@ int main(void)
 	else if (n < 0)
 
 	{
-
 			printf("%i is negative\n", n);
 
 	}
 
 	return (0);
-
 }
