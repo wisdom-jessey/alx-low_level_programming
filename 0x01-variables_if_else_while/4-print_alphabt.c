@@ -12,9 +12,9 @@ int main(void)
 
 {
 char ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
+for (ch = 'a'; ch <= 'z'; c++)
 {
-if (ch != 'e' && ch != 'q')
+if (c != 'e' && c != 'q')
 
 {
 	putchar(ch);
