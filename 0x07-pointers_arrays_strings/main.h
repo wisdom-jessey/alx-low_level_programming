@@ -1,9 +1,3 @@
-main.h
-
-
-
-
-
 #ifndef MAIN_H
 
 #define MAIN_H
@@ -11,35 +5,25 @@ main.h
 #include <stdio.h>
 
 
+int _putchar(char c);                                                                                                              
 
-void reverse_array(int *a, int n);
+void *_memset(void *s, int c, size_t n);                                                                                           
 
-void print_number(int n);
+char *_memcpy(char *dest, char *src, unsigned int n);                                                                              
 
-void print_buffer(char *b, int size);
+char *_strchr(char *s, char c);                                                                                                    
 
-int _strcmp(char *s1, char *s2);
+unsigned int _strspn(char *s, char *accept);                                                                                       
 
-int _putchar(char c);
+char *_strpbrk(char *s, char *accept);                                                                                             
 
-char *_strcat(char *dest, char *src);
+char *_strstr(char *haystack, char *needle);                                                                                       
 
-char *_strncat(char *dest, char *src, int n);
+void print_chessboard(char (*a)[8]);                                                                                               
 
-char *_strncpy(char *dest, char *src, int n);
+void print_diagsums(int *a, int size);                                                                                             
 
-char *string_toupper(char *);
-
-char *cap_string(char *);
-
-char *leet(char *);
-
-char *rot13(char *);
-
-char *infinite_add(char *n1, char *n2, char *r, int size_r);
-
-char *add_strings(char *n1, char *n2, char *r, int r_index);
-
+void set_string(char **s, char *to);
 
 
 #endif
